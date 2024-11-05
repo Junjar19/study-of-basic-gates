@@ -63,7 +63,18 @@ Y= A⊕B
 
 
 **PROGRAM**
-![Screenshot 2024-11-05 083526](https://github.com/user-attachments/assets/67c94c6e-caf0-40fc-beaa-0bf4cee057fb)
+module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
+    input a, b;
+    output c1, c2, c3, c4, c5, c6, c7;
+
+    assign c1 = ~a;
+    assign c2 = a & b;
+    assign c3 = a | b;
+    assign c4 = ~(a & b);
+    assign c5 = ~(a | b);
+    assign c6 = a ^ b;
+    assign c7 = ~(a ^ b);
+endmodule
 ![Screenshot 2024-11-05 083338](https://github.com/user-attachments/assets/b4003d11-395a-4263-aee3-b3ed50852b09)
 ![Screenshot 2024-11-05 082733](https://github.com/user-attachments/assets/6797018f-5258-4936-8395-908d6c1fb668)
 
