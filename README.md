@@ -76,19 +76,21 @@ module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     assign c7 = ~(a ^ b);
 endmodule
 ![Screenshot 2024-11-05 083338](https://github.com/user-attachments/assets/b4003d11-395a-4263-aee3-b3ed50852b09)
-![Screenshot 2024-11-05 082733](https://github.com/user-attachments/assets/6797018f-5258-4936-8395-908d6c1fb668)
 
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: RegisterNumber: 24008873
+ Developed by: RegisterNumber:Junjar U  24008873
  
 **Logic symbol & Truthtable**
 
 **RTL realization Output:** 
 
 **RTL**
+![Screenshot 2024-11-05 082733](https://github.com/user-attachments/assets/9e1f12a3-29d2-4683-9604-f5cdd0a85252)
+
 
 **Result:**
+Thus the different digital IC's are studied and truth table for different logic gates are verified.
 
 
