@@ -75,6 +75,7 @@ module logic_gates(a, b, c1, c2, c3, c4, c5, c6, c7);
     assign c6 = a ^ b;
     assign c7 = ~(a ^ b);
 endmodule
+
 ![Screenshot 2024-11-05 083338](https://github.com/user-attachments/assets/b4003d11-395a-4263-aee3-b3ed50852b09)
 
 
