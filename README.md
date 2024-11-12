@@ -84,6 +84,13 @@ Program for logic gates and verify its truth table in quartus using Verilog prog
  Developed by:Junjar U RegisterNumber: 24008873
  
 **Logic symbol & Truthtable**
+A	B	NOT(C1)	AND(C2)	OR(C3)	NAND(C4)	NOR(C5)	XOR(C6)	XNOR(C7)
+0	0	1	0	0	1	1	0	1
+0	1	1	0	1	1	0	1	0
+1	0	0	0	1	1	0	1	0
+1	1	0	1	1	0	0	0	1
+![image](https://github.com/user-attachments/assets/0b651361-a041-4ea2-914e-96dccfc38119)
+
 
 **RTL realization Output:** 
 
